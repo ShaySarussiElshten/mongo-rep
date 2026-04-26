@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "oracle-db": {
+      "command": "/Users/shaysarussi/Desktop/bridgewise/.venv/bin/python3",
+      "args": ["-m", "oracledb_mcp_server"],
+      "env": {
+        "DB_CONNECTION_STRING": "oracle+oracledb://bridgewise:bridgewise123@localhost:1521/?service_name=XEPDB1",
+        "COMMENT_DB_CONNECTION_STRING": "oracle+oracledb://bridgewise:bridgewise123@localhost:1521/?service_name=XEPDB1",
+        "TABLE_WHITE_LIST": "STOCKS,STOCK_PRICES",
+        "QUERY_LIMIT_SIZE": "100",
+        "DEBUG": "True"
+      }
+    }
+  }
+}

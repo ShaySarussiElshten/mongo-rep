@@ -1,0 +1,60 @@
+Processing Log - Started at 2026-03-26T06:31:32.832Z
+Total documents to process: 307
+Batch size: 100, Workers: 10
+Delay between batches: 300ms
+
+
+=== Batch 1/4 - Started at 2026-03-26T06:31:32.833Z ===
+FAILED: symbol: HRL.F238, paper_id: 1233170, reason: Request failed with status code 404, status: 404
+FAILED: symbol: HRL.F237, paper_id: 1231919, reason: Request failed with status code 404, status: 404
+Batch 1 completed in 3.11s
+Success: 0, Failed: 2, Skip: 98
+Total so far - Success: 0, Failed: 2, Skip: 98
+
+=== Batch 2/4 - Started at 2026-03-26T06:31:36.246Z ===
+Batch 2 completed in 0.84s
+Success: 0, Failed: 0, Skip: 100
+Total so far - Success: 0, Failed: 2, Skip: 198
+
+=== Batch 3/4 - Started at 2026-03-26T06:31:37.383Z ===
+FAILED: symbol: HAREL  MULTI-STRATEGY - MUTUAL HEDGED FUND, paper_id: 1194141, reason: Request failed with status code 404, status: 404
+FAILED: symbol: , paper_id: 5141783, reason: Request failed with status code 404, status: 404
+FAILED: symbol: , paper_id: 1210970, reason: Request failed with status code 404, status: 404
+FAILED: symbol: , paper_id: 5141460, reason: Request failed with status code 404, status: 404
+Batch 3 completed in 1.20s
+Success: 0, Failed: 4, Skip: 96
+Total so far - Success: 0, Failed: 6, Skip: 294
+
+=== Batch 4/4 - Started at 2026-03-26T06:31:38.884Z ===
+FAILED: symbol: , paper_id: 5141932, reason: Request failed with status code 404, status: 404
+FAILED: symbol: Hrl.TARst-35 IL, paper_id: 5142021, reason: Request failed with status code 404, status: 404
+FAILED: symbol: , paper_id: 5141775, reason: Request failed with status code 404, status: 404
+FAILED: symbol: , paper_id: 5142187, reason: Request failed with status code 404, status: 404
+FAILED: symbol: , paper_id: 1194182, reason: Request failed with status code 404, status: 404
+FAILED: symbol: , paper_id: 1207729, reason: Request failed with status code 404, status: 404
+Batch 4 completed in 0.40s
+Success: 0, Failed: 6, Skip: 1
+Total so far - Success: 0, Failed: 12, Skip: 295
+
+
+=== Final Summary ===
+Completed at: 2026-03-26T06:31:39.282Z
+Total documents: 307
+Successfully processed: 0
+Failed: 12
+Skipped (already exists): 295
+
+
+=== Failed Records (12) ===
+1. symbol: HRL.F238, paper_id: 1233170, reason: Request failed with status code 404, status: 404
+2. symbol: HRL.F237, paper_id: 1231919, reason: Request failed with status code 404, status: 404
+3. symbol: HAREL  MULTI-STRATEGY - MUTUAL HEDGED FUND, paper_id: 1194141, reason: Request failed with status code 404, status: 404
+4. symbol: N/A, paper_id: 5141783, reason: Request failed with status code 404, status: 404
+5. symbol: N/A, paper_id: 1210970, reason: Request failed with status code 404, status: 404
+6. symbol: N/A, paper_id: 5141460, reason: Request failed with status code 404, status: 404
+7. symbol: N/A, paper_id: 5141932, reason: Request failed with status code 404, status: 404
+8. symbol: Hrl.TARst-35 IL, paper_id: 5142021, reason: Request failed with status code 404, status: 404
+9. symbol: N/A, paper_id: 5141775, reason: Request failed with status code 404, status: 404
+10. symbol: N/A, paper_id: 5142187, reason: Request failed with status code 404, status: 404
+11. symbol: N/A, paper_id: 1194182, reason: Request failed with status code 404, status: 404
+12. symbol: N/A, paper_id: 1207729, reason: Request failed with status code 404, status: 404

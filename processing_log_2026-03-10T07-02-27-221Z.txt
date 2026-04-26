@@ -1,3 +1,0 @@
-
-
-FATAL ERROR: getaddrinfo ENOTFOUND ac-7qlui6o-shard-00-00.5glztvt.mongodb.net
